@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-block-size: 100vh;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(24, 24, 24);
+    background-color: rgb(26, 25, 25);
+}
+
+.wrapper {
+    background-color: rgb(235, 233, 233);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+h1 {
+    width: max-content;
+    padding: 0.2rem;
+    margin: 0.625rem auto;
+}
+
+.word-counter-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word-counter-container label {
+    margin-block-end: 3rem;
+}
+
+textarea {
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    background-color: aliceblue;
+}
+
+textarea:focus {
+    outline: 2px lightblue;
+}
+
+.count-container {
+    margin-block-start: 1rem;
+}
